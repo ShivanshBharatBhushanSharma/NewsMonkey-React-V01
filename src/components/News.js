@@ -99,13 +99,7 @@ export class News extends Component {
         //     loading: false});
         this.updateNews();
     }
-    componentDidUpdate () {
-        console.log('componentDidUpdate');
-    }
-
-    componentWillUnmount() {
-        console.log('componentWillUnmount');
-    }
+    
     handlePreviousClick = async () => {
         console.log('previous')
         // Before Refactoring
